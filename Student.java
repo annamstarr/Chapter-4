@@ -9,40 +9,45 @@ import java.util.Scanner;
 public class Student
 {
     //declare instance data
-    //-----------------------------------------------
+    private String studentName;
+    private double score1;
+    private double score2;
+    private double average;
+    
     //constructor
-    //-----------------------------------------------
-    public Student(String studentName)
-    {
-        //add body of constructor
+    Scanner scan = new Scanner(System.in);
+    
+    public Student(String nm) {
+        this.studentName = nm;
     }
-    //-----------------------------------------------
+    
     //inputGrades: prompt for and read in student's grades for test1 and test2.
     //Use name in prompts, e.g., "Enter's Joe's score for test1".
-    //-----------------------------------------------
-    public void inputGrades()
-    {
+    public void inputGrades() {
         //add body of inputGrades
+        System.out.print("Enter " + studentName + "'s score on Test 1: \t");
+        this.score1 = scan.nextFloat();
+        
+        System.out.print("Enter " + studentName + "'s score on Test 2: \t");
+        this.score2 = scan.nextFloat();
     }
-    //-----------------------------------------------
+    
     //getAverage: compute and return the student's test average
-    //-----------------------------------------------
-    //add header for getAverage
-    {
+    public double getAverage() {
         //add body of getAverage
+        this.average = ((this.score1 + this.score2) / 2);
+        return this.average;
     }
-    //-----------------------------------------------
+    
     //getName: return the student's name
-    //-----------------------------------------------
-    //add header for getName
-    {
+    public String getName() {
         //add body of getName
+        return this.studentName;
     }
-    //-----------------------------------------------
+
     //printName: print the student's name
-    //-----------------------------------------------
-    //add header for printName
-    {
+    public String toString(){
         //add body of printName
+        return "Name: " + this.studentName + "\tScore 1: " + this.score1 + "\tScore 2: " + this.score2;
     }
 }
