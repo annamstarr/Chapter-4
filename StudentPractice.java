@@ -11,14 +11,7 @@ public class StudentPractice
     private int idNumber;
     private StudentPractice bestFriend;
     
-    /**
-     * Constructor for objects of class Student
-     */
-    public StudentPractice()
-    {
-        // initialise instance variables
-    }
-    public StudentPractice (int num, String nm) {
+    public StudentPractice(int num, String nm) {
         this.idNumber = num;
         this.name = nm;
     }

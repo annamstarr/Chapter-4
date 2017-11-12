@@ -12,19 +12,19 @@ public class Name
         lastName = last;
     }
     public String getFirst() {
-        return this.firstName;
+        return firstName;
     }
     public String getMiddle() {
-        return this.middleName;
+        return middleName;
     }
     public String getLast() {
-        return this.lastName;
+        return lastName;
     }
     public String firstMiddleLast() {
-        return this.firstName + " " + this.middleName + " " + this.lastName;
+        return firstName + " " + middleName + " " + lastName;
     }
     public String lastFirstMiddle() {
-        return this.lastName + ", " + this.firstName + " " + this.middleName;
+        return lastName + ", " + firstName + " " + middleName;
     }
     public boolean equals(Name otherName) {
         if (this.fullName.equalsIgnoreCase(otherName.fullName)) {
