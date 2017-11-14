@@ -4,7 +4,6 @@ public class Name
     private String firstName;
     private String middleName;
     private String lastName;
-    private String fullName = this.firstName + this.middleName + this.lastName;
     
     public Name(String first, String middle, String last) {
         firstName = first;
@@ -27,7 +26,7 @@ public class Name
         return lastName + ", " + firstName + " " + middleName;
     }
     public boolean equals(Name otherName) {
-        if (this.fullName.equalsIgnoreCase(otherName.fullName)) {
+        if (this.firstName.equalsIgnoreCase(otherName.firstName) && this.middleName.equalsIgnoreCase(otherName.middleName) && this.lastName.equalsIgnoreCase(otherName.lastName)) {
             return true;
         }
         else {
@@ -35,10 +34,7 @@ public class Name
         }
     }
     public String initials() {
-        
-    }
-    public int length() {
-        
+        return firstName.substring(0,1).toUpperCase() + middleName.substring(0,1).toUpperCase() + lastName.substring(0,1).toUpperCase();
     }
 
 }
