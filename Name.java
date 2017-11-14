@@ -1,5 +1,4 @@
-public class Name
-{
+public class Name {
     // instance variables - replace the example below with your own
     private String firstName;
     private String middleName;
@@ -36,5 +35,4 @@ public class Name
     public String initials() {
         return firstName.substring(0,1).toUpperCase() + middleName.substring(0,1).toUpperCase() + lastName.substring(0,1).toUpperCase();
     }
-
 }

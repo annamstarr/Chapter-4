@@ -2,39 +2,33 @@
 dependency1.from=PetDriver
 dependency1.to=Pet
 dependency1.type=UsesDependency
-<<<<<<< HEAD
 dependency10.from=SoccerTeam
-dependency10.to=Athlete
+dependency10.to=Team
 dependency10.type=UsesDependency
-dependency11.from=AHSLibrary
-dependency11.to=Library
+dependency11.from=SoccerTeam
+dependency11.to=Athlete
 dependency11.type=UsesDependency
 dependency12.from=AHSLibrary
-dependency12.to=Author
+dependency12.to=Library
 dependency12.type=UsesDependency
 dependency13.from=AHSLibrary
-dependency13.to=Book
+dependency13.to=Author
 dependency13.type=UsesDependency
-dependency14.from=Book
-dependency14.to=Author
+dependency14.from=AHSLibrary
+dependency14.to=Book
 dependency14.type=UsesDependency
-dependency15.from=Team
-dependency15.to=Athlete
+dependency15.from=Book
+dependency15.to=Author
 dependency15.type=UsesDependency
-dependency16.from=Library
-dependency16.to=Book
+dependency16.from=Team
+dependency16.to=Athlete
 dependency16.type=UsesDependency
-dependency17.from=StudentPracticeDriver
-dependency17.to=StudentPractice
+dependency17.from=Library
+dependency17.to=Book
 dependency17.type=UsesDependency
 dependency18.from=TestNames
 dependency18.to=Name
 dependency18.type=UsesDependency
-=======
-dependency10.from=TestNames
-dependency10.to=Name
-dependency10.type=UsesDependency
->>>>>>> 21272559615b7b444214fe70094ba483ca6b9984
 dependency2.from=HatDriver
 dependency2.to=Hat
 dependency2.type=UsesDependency
@@ -56,45 +50,24 @@ dependency7.type=UsesDependency
 dependency8.from=Grades
 dependency8.to=Student
 dependency8.type=UsesDependency
-<<<<<<< HEAD
-dependency9.from=SoccerTeam
-dependency9.to=Team
-dependency9.type=UsesDependency
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
-objectbench.height=97
-objectbench.width=1016
-package.divider.horizontal=0.6
-package.divider.vertical=0.8541374474053296
-package.editor.height=602
-package.editor.width=926
-package.editor.x=506
-package.editor.y=84
-package.frame.height=813
-package.frame.width=1056
-package.numDependencies=18
-=======
 dependency9.from=StudentPracticeDriver
 dependency9.to=StudentPractice
 dependency9.type=UsesDependency
-editor.fx.0.height=872
+editor.fx.0.height=663
 editor.fx.0.width=1124
-editor.fx.0.x=669
-editor.fx.0.y=66
-objectbench.height=129
+editor.fx.0.x=767
+editor.fx.0.y=290
+objectbench.height=111
 objectbench.width=991
 package.divider.horizontal=0.6
-package.divider.vertical=0.81292984869326
-package.editor.height=584
+package.divider.vertical=0.837465564738292
+package.editor.height=601
 package.editor.width=901
-package.editor.x=735
-package.editor.y=73
+package.editor.x=350
+package.editor.y=46
 package.frame.height=826
 package.frame.width=1031
-package.numDependencies=10
->>>>>>> 21272559615b7b444214fe70094ba483ca6b9984
+package.numDependencies=18
 package.numTargets=23
 package.showExtends=true
 package.showUses=true
@@ -118,13 +91,8 @@ target10.showInterface=false
 target10.type=ClassTarget
 target10.typeParameters=
 target10.width=160
-<<<<<<< HEAD
-target10.x=210
-target10.y=380
-=======
 target10.x=690
 target10.y=390
->>>>>>> 21272559615b7b444214fe70094ba483ca6b9984
 target11.height=50
 target11.name=Name
 target11.showInterface=false
@@ -132,24 +100,15 @@ target11.type=ClassTarget
 target11.typeParameters=
 target11.width=80
 target11.x=80
-<<<<<<< HEAD
-target11.y=410
-=======
 target11.y=350
->>>>>>> 21272559615b7b444214fe70094ba483ca6b9984
 target12.height=50
 target12.name=FactoryDriver
 target12.showInterface=false
 target12.type=ClassTarget
 target12.typeParameters=
 target12.width=110
-<<<<<<< HEAD
-target12.x=580
-target12.y=140
-=======
 target12.x=510
 target12.y=130
->>>>>>> 21272559615b7b444214fe70094ba483ca6b9984
 target13.height=50
 target13.name=TestNames
 target13.showInterface=false
@@ -157,22 +116,14 @@ target13.type=ClassTarget
 target13.typeParameters=
 target13.width=90
 target13.x=210
-<<<<<<< HEAD
-target13.y=460
-=======
 target13.y=420
->>>>>>> 21272559615b7b444214fe70094ba483ca6b9984
 target14.height=50
 target14.name=Car
 target14.showInterface=false
 target14.type=ClassTarget
 target14.typeParameters=
 target14.width=80
-<<<<<<< HEAD
-target14.x=420
-=======
 target14.x=370
->>>>>>> 21272559615b7b444214fe70094ba483ca6b9984
 target14.y=10
 target15.height=50
 target15.name=Book
@@ -180,13 +131,8 @@ target15.showInterface=false
 target15.type=ClassTarget
 target15.typeParameters=
 target15.width=80
-<<<<<<< HEAD
-target15.x=680
-target15.y=520
-=======
 target15.x=500
 target15.y=220
->>>>>>> 21272559615b7b444214fe70094ba483ca6b9984
 target16.height=50
 target16.name=ManageAccounts
 target16.showInterface=false
@@ -201,13 +147,8 @@ target17.showInterface=false
 target17.type=ClassTarget
 target17.typeParameters=
 target17.width=80
-<<<<<<< HEAD
-target17.x=590
-target17.y=400
-=======
 target17.x=390
 target17.y=220
->>>>>>> 21272559615b7b444214fe70094ba483ca6b9984
 target18.height=50
 target18.name=Hat
 target18.showInterface=false
@@ -222,13 +163,8 @@ target19.showInterface=false
 target19.type=ClassTarget
 target19.typeParameters=
 target19.width=80
-<<<<<<< HEAD
-target19.x=560
-target19.y=250
-=======
 target19.x=110
 target19.y=500
->>>>>>> 21272559615b7b444214fe70094ba483ca6b9984
 target2.height=50
 target2.name=Account
 target2.showInterface=false
@@ -243,29 +179,16 @@ target20.showInterface=false
 target20.type=ClassTarget
 target20.typeParameters=
 target20.width=80
-<<<<<<< HEAD
-target20.x=530
-target20.y=460
+target20.x=410
+target20.y=300
 target21.height=50
 target21.name=CarDriver
 target21.showInterface=false
 target21.type=ClassTarget
 target21.typeParameters=
 target21.width=80
-target21.x=650
-target21.y=60
-=======
-target20.x=410
-target20.y=300
-target21.height=50
-target21.name=StudentPractice
-target21.showInterface=false
-target21.type=ClassTarget
-target21.typeParameters=
-target21.width=120
-target21.x=730
-target21.y=10
->>>>>>> 21272559615b7b444214fe70094ba483ca6b9984
+target21.x=580
+target21.y=50
 target22.height=50
 target22.name=Pet
 target22.showInterface=false
@@ -275,23 +198,13 @@ target22.width=80
 target22.x=80
 target22.y=10
 target23.height=50
-<<<<<<< HEAD
 target23.name=StudentPractice
 target23.showInterface=false
 target23.type=ClassTarget
 target23.typeParameters=
 target23.width=120
-target23.x=40
-target23.y=330
-=======
-target23.name=CarDriver
-target23.showInterface=false
-target23.type=ClassTarget
-target23.typeParameters=
-target23.width=80
-target23.x=580
-target23.y=50
->>>>>>> 21272559615b7b444214fe70094ba483ca6b9984
+target23.x=730
+target23.y=10
 target3.height=50
 target3.name=HatDriver
 target3.showInterface=false
@@ -306,39 +219,24 @@ target4.showInterface=false
 target4.type=ClassTarget
 target4.typeParameters=
 target4.width=100
-<<<<<<< HEAD
-target4.x=630
-target4.y=310
-=======
 target4.x=210
 target4.y=490
->>>>>>> 21272559615b7b444214fe70094ba483ca6b9984
 target5.height=50
 target5.name=AHSLibrary
 target5.showInterface=false
 target5.type=ClassTarget
 target5.typeParameters=
 target5.width=90
-<<<<<<< HEAD
-target5.x=460
-target5.y=350
-=======
 target5.x=540
 target5.y=340
->>>>>>> 21272559615b7b444214fe70094ba483ca6b9984
 target6.height=50
 target6.name=Factory
 target6.showInterface=false
 target6.type=ClassTarget
 target6.typeParameters=
 target6.width=80
-<<<<<<< HEAD
-target6.x=530
-target6.y=80
-=======
 target6.x=440
 target6.y=70
->>>>>>> 21272559615b7b444214fe70094ba483ca6b9984
 target7.height=50
 target7.name=PetDriver
 target7.showInterface=false
@@ -348,33 +246,18 @@ target7.width=80
 target7.x=210
 target7.y=60
 target8.height=50
-<<<<<<< HEAD
 target8.name=Athlete
-=======
-target8.name=Student
->>>>>>> 21272559615b7b444214fe70094ba483ca6b9984
 target8.showInterface=false
 target8.type=ClassTarget
 target8.typeParameters=
 target8.width=80
-<<<<<<< HEAD
-target8.x=440
-target8.y=200
+target8.x=80
+target8.y=420
 target9.height=50
 target9.name=Student
-=======
-target8.x=80
-target8.y=260
-target9.height=50
-target9.name=Athlete
->>>>>>> 21272559615b7b444214fe70094ba483ca6b9984
 target9.showInterface=false
 target9.type=ClassTarget
 target9.typeParameters=
 target9.width=80
 target9.x=80
-<<<<<<< HEAD
-target9.y=250
-=======
-target9.y=420
->>>>>>> 21272559615b7b444214fe70094ba483ca6b9984
+target9.y=260
