@@ -1,4 +1,4 @@
-public class Team {
+ public class Team {
     private String teamName;
     private Athlete[] players;
 
@@ -16,4 +16,4 @@ public class Team {
         }
         return output;
     }
-}
+ }

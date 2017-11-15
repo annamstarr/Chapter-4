@@ -12,7 +12,6 @@ public class Athlete {
     public String toString() {
         return "This athlete is named " + this.name  + " and is " + this.age + " years old \n";
     }
-    
     public boolean equals(Athlete other) {
         if(this.name.equals(other.name) && this.age == other.age) {
             return true;
@@ -21,5 +20,4 @@ public class Athlete {
             return false;
         }
     }
-
 }

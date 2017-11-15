@@ -1,23 +1,11 @@
-
-/**
- * Write a description of class Pet here.
- *
- * A. Starr
- * 11/1/17
- */
-public class Pet
-{
+public class Pet {
     // instance variables - replace the example below with your own
     private String name;
     private int collarNum;
     private boolean alive;
     public static int numPets;
 
-    /**
-     * Constructor for objects of class Pet
-     */
-    public Pet()
-    {
+    public Pet() {
         // initialise instance variables
     }
     

@@ -1,5 +1,4 @@
-public class Factory
-{
+public class Factory {
     private double sqFootage;
     private Car[] inventory;
     
